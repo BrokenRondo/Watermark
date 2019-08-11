@@ -1,0 +1,10 @@
+img1='lena.bmp';
+ifid='mark.txt';
+len=7;
+level=10;
+B=Embed2(img1,ifid,len);
+logistic=B;
+marked_matrix='kuopinQIM.bmp';
+src_matrix='lena.bmp';
+src_msg_dec='test1.txt';
+extract_robust2(marked_matrix,src_matrix,len,logistic)

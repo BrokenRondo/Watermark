@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LSB_WatermarkExtract</name>
+    </assembly>
+    <members>
+        <member name="T:LSB_WatermarkExtract.Class1">
+            <summary>
+            The Class1 class provides a CLS compliant, MWArray interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            C:\Users\msi-\Desktop\MATLAB_Stego\LSB_WatermarkExtract.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.#ctor">
+            <summary>
+            Constructs a new instance of the Class1 class.
+            </summary>
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.LSB_WatermarkExtract">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the LSB_WatermarkExtract
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             emb=bitset(Embeded_img(i,j),1,binary(loc));
+             Embeded_img(i,j)=emb;
+             </remarks>
+            
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.LSB_WatermarkExtract(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the LSB_WatermarkExtract
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             emb=bitset(Embeded_img(i,j),1,binary(loc));
+             Embeded_img(i,j)=emb;
+             </remarks>
+             <param name="tobeExtracted">Input argument #1</param>
+            
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.LSB_WatermarkExtract(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the LSB_WatermarkExtract
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             emb=bitset(Embeded_img(i,j),1,binary(loc));
+             Embeded_img(i,j)=emb;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.LSB_WatermarkExtract(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the LSB_WatermarkExtract
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             emb=bitset(Embeded_img(i,j),1,binary(loc));
+             Embeded_img(i,j)=emb;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="tobeExtracted">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LSB_WatermarkExtract.Class1.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>
