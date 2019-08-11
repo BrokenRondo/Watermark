@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
-*.text linguist-language=Matlab
+*.html linguist-language=MATLAB
 *.m linguist-language=Matlab
 *.cs linguist-language=C#
 
